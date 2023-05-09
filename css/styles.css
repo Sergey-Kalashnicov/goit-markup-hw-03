@@ -1,0 +1,279 @@
+:root {
+  --main-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --main-bg-color: #2e2f42;
+  --secondary-bg-color: #f4f4fd;
+  --accent-color: #4d5ae5;
+  --primery-whitecolor: #ffffff;
+}
+/*style reset*/
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.address {
+  font-style: normal;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+.page {
+  color: var(--secondary-text-color);
+  background-color: var(--primery-whitecolor);
+
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* Logo */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--accent-color);
+}
+.main-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--main-text-color);
+}
+.white-logo {
+  color: #f4f4fd;
+}
+
+/*  Site nav */
+
+.menu-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: var(--main-bg-color);
+}
+
+.menu-link:hover {
+  color: #404bbf;
+}
+.menu-link:focus {
+  color: #404bbf;
+}
+
+.adres-item {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-text-color);
+}
+.adres-item:hover,
+.adres-item:focus {
+  color: #404bbf;
+}
+
+/* Главная секция и Заголовок кнопка */
+.main-section {
+  background-color: var(--main-bg-color);
+}
+.main-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--primery-whitecolor);
+  background-color: var(--main-bg-color);
+}
+.title-button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #4d5ae5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+}
+.title-button:hover,
+.title-button:focus {
+  background-color: #404bbf;
+}
+
+/*.feature {
+  background-color: #e5e5e5;
+}*/
+
+.feature-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
+
+  color: var(--main-text-color);
+}
+.feature-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-text-color);
+}
+/*Портфолио - Фильтры. Кнопки*/
+
+.button-item {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f4f4fd;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #4d5ae5;
+}
+.button-item:hover,
+.button-item:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+/* section title 3-4 index*/
+
+.section-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--main-text-color);
+}
+.portfolio-list {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
+
+  color: var(--main-text-color);
+}
+.list-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-text-color);
+}
+.title-team {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--main-text-color);
+}
+.section-workers {
+  background-color: var(--primery-whitecolor);
+}
+.cards {
+  background-color: var(--primery-whitecolor);
+}
+.title-master {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--main-text-color);
+}
+.section-workers {
+  background-color: var(--secondary-bg-color);
+}
+.list-description {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-text-color);
+}
+
+/* footer style */
+.footer-section {
+  background-color: var(--main-bg-color);
+}
+.footer-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-bg-color);
+}
